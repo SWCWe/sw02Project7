@@ -1,0 +1,162 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+.logo{
+    float : left; 
+}
+.logo img{
+    height : 50px;
+    margin-left : 20px;
+    margin-top : 7px;
+}
+
+.menu{
+    float : right;
+
+}
+.menu li{
+    display : inline-block;
+    margin-left : 50px;
+    margin-top : 20px;
+    margin-right : 20px;
+    font-weight : bold;
+}
+ul, li{
+    list-style : none;
+}
+
+header {
+    height : 60px;
+    border-bottom : 1px ;
+
+}
+#title-area {
+    width : 1oopx; 
+    padding : 50px;
+    height : px;
+    background : url(https://cdn.pixabay.com/photo/2016/04/15/04/02/water-1330252_960_720.jpg) no-repeat 100% 88%/cover;
+    text-align : center;
+}    
+
+
+#title-area strong{
+    color : #F2F2F2;
+    font-size : 40px;
+    
+}
+
+#title-area li{
+    color : #A4A4A4;
+    font-size : 20px;
+    margin-top : 90px;
+    margin-right : 50px;
+    margin-left : 50px;
+    display : inline-block;
+    
+}
+
+    
+
+.category{
+    display : inline-block;
+    margin-top : 100px;
+    margin-right : 90px;
+    margin-left : 200px;
+  
+}
+
+.category p{
+    text-align : center;
+    font-weight : bold;
+    font-size : 25px;
+}
+#footer{
+    margin-top : 60px;
+}
+
+#footer h1{
+    text-align : center;
+    color : red;
+    font-size : 45px;
+    
+}
+#footer p {
+    text-align : center;
+    font-size : 17px;
+}
+
+
+#idx_board_wrap{
+    padding : 50px;
+    background : #f5f6f7;
+}
+
+#idx_board_warp > div {
+    width : 90px;
+    min-width : 1000px;
+    max-width : 1200px;
+    margin : 0 auto;
+}
+
+.idx_board {
+    width : 500px;
+    background : #fff;
+}
+.idx_board .title {
+    position : relative;
+    border-bottom : 1px solid #aaa;
+    padding : 15px;
+}
+
+.idx_board .name {
+    font-size : 24px;
+    font-weight : 800;
+    letter-spacing : 2px;
+}
+
+.idx_board .title a{
+    display : inline-block;
+    vertical-align : middle;
+}
+
+.idx_board .title .more {
+    position : absolute;
+    top: 25;
+    right : 20px;
+}
+
+.idx_board .title .more img{
+    width : 25px;
+    margin-top : 2px;
+    margin-left: 3px;
+    
+}
+
+.idx_board .list{
+    padding : 15px;
+}
+
+.idx_board .list ul li {
+    margin-top : 10px;
+    font-size : 0;
+}
+
+.idx_board .list a{
+    width : 80%;
+    font-size : 16px;
+    color : blue;
+    
+} 
+.idx_board .list span{
+    width : 20%;
+    font-size : 14px;
+}
+
+.idx_board .list a,
+.idx_board .list span {
+    display : inline-block;
+    vertical-align : middle;
+}
+    
