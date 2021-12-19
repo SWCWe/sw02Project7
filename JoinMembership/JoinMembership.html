@@ -1,49 +1,50 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title> 회원 가입 </title>
-        <link rel = "stylesheet" href = "회원 가입.css">
+        <link rel = "stylesheet" href = "MemberJoinForm.css">
     </head>
     <body>
         <div class = "head">
             
             <h1> 회원가입 </h1>
-            <form>
+            <form method="post" action='Memberjoin.php'>
                 <dl>
                     <dt>아이디</dt>
-                    <dd><input type = "text" placeholder = "아이디를 입력하세요"></dd>
+                    <dd><input type = "text" name="id" placeholder = "아이디를 입력하세요"></dd>
                 </dl>
                 <dl>
                     <dt>비밀번호</dt>
-                    <dd><input type = "password" placeholder = "비밀번호를 입력하세요"></dd>
+                    <dd><input type = "password" name="password" placeholder = "비밀번호를 입력하세요"></dd>
                 </dl>
                 <dl>
                     <dt>비밀번호 확인</dt>
-                    <dd><input type = "password" placeholder = "비밀번호를 한번 더 입력하세요"></dd>
+                    <dd><input type = "password" name="password" placeholder = "비밀번호를 한번 더 입력하세요"></dd>
                 </dl>
                 <dl>
                     <dt>이름</dt>
-                    <dd><input type = "text" placeholder = "이름을 입력하세요"></dd>
+                    <dd><input type = "text" name="username" placeholder = "이름을 입력하세요"></dd>
                 </dl>
                 <dl>
                     <dt>학번</dt>
-                    <dd><input type = "number" placeholder = "학번을 입력하세요"></dd>
+                    <dd><input type = "number" name="grade" placeholder = "학번을 입력하세요"></dd>
                 </dl>
                 <dl>
                     <dt>소속 학과</dt>
-                    <dd><input type = "department" placeholder = "소속학과를 입력하세요"></dd>
+                    <dd><input type = "department" name="department" placeholder = "소속학과를 입력하세요"></dd>
                 </dl>
                 
                 <dl>
                     <dt>재학증명서</dt>
                     <dd><input type = "button" value = "재학증명서 첨부하기"></dd>
                 </dl>
-                <dl>
-                   
-                    </dl>
+
+                <div class="submit">
+                    <div class = memberjoin_button>
+                        <input type="submit" style="WIDTH: 100pt; height: 30pt" value="회원가입">
+                    </div>
                   
-
-
      
 
             </form>
