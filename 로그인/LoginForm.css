@@ -52,12 +52,12 @@ h2 {
   outline: none;
 }
 
-.login_pw {
+.login_password {
   margin-top: 20px;
   width: 80%;
 }
 
-.login_pw input {
+.login_password input {
   width: 100%;
   height: 50px;
   border-radius: 30px;
@@ -67,12 +67,6 @@ h2 {
   outline: none;
 }
 
-
-/* .submit {
-  margin-top: 50px;
-  width: 80%;
-} */
-
 .submit {
     margin-top: 50px;
     display: flex;
@@ -81,14 +75,4 @@ h2 {
 .login_button {
     margin-left: 5px;
 }
-
-/* .submit input {
-  width: 100%;
-  height: 50px;
-  border: 0;
-  outline: none;
-  border-radius: 40px;
-  font-size: 1.2em;
-  letter-spacing: 2px;
-} */
 
