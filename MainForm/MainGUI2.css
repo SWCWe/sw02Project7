@@ -89,8 +89,9 @@ header {
 
 
 #idx_board_wrap{
-    padding : 50px;
+    padding : 70px;
     background : #f5f6f7;
+    
 }
 
 #idx_board_warp > div {
@@ -98,10 +99,12 @@ header {
     min-width : 1000px;
     max-width : 1200px;
     margin : 0 auto;
+    font-size : 0;
 }
 
 .idx_board {
-    width : 500px;
+    display: inline-block;
+    width : 40%;
     background : #fff;
 }
 .idx_board .title {
@@ -123,7 +126,7 @@ header {
 
 .idx_board .title .more {
     position : absolute;
-    top: 25;
+    top: 25px;
     right : 20px;
 }
 
@@ -159,4 +162,7 @@ header {
     display : inline-block;
     vertical-align : middle;
 }
-    
+
+#idx_board_wrap > div > div:nth-child(even){
+    margin-left : 4%;
+}
