@@ -1,0 +1,96 @@
+#form-commentInfo{
+  width: 100%; 
+  bottom: 0; 
+} 
+
+#comment-count{
+  margin-bottom: 10px;
+} 
+
+#comment-input{
+  width: 90%; height: 3.3em; 
+  float: left;
+}
+
+#submit{
+  position: fixed;
+  background-color: rgb(0, 128,255);
+  width: 10%; height: 3.3em;; font-size: 15px; 
+  font-weight: bold; color: aliceblue;
+}
+
+
+#comments{
+  margin-top: 10px;
+} 
+
+.eachComment{ 
+  width :95%; margin: 10px; padding: 0.5em; border-bottom: 1px solid #c1bcba; background-color: ivory; box-shadow: 5px 5px grey
+}
+
+.eachComment .name{
+  font-size: 1.5em; font-weight: bold; margin-bottom: 0.3em; display: flex; justify-content: space-between;
+}
+
+.eachComment .inputValue{ 
+  font-size: 1.2em; font-style: italic;
+} 
+
+.eachComment .time{ 
+  font-size: 0.7em; color: #c1bcba; font-style: oblique; margin-top: 0.5em; margin-bottom: 0.5em; 
+} 
+
+.eachComment .voteDiv{
+  display: flex; justify-content: flex-end; 
+} 
+
+.eachComment .deleteComment{
+  background-color: red; color: aliceblue; 
+}
+
+.banner {
+  display:table;
+  margin: 10px;
+  text-align: center;
+  width: 95%;   
+  height: 10%;    
+  box-sizing: border-box;   
+  border-width: 1px;   
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  box-shadow: 5px 5px grey;
+  }
+
+  .title{
+    text-align:center;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+.comments{
+
+  width: 95%;
+  height: 80%;
+  overflow-x:auto;
+  overflow-y:scroll;
+  margin: 10px;
+  border-width: 0.5px;   
+  border-style: solid;
+  border-color: grey;
+  box-shadow: 5px 5px grey;
+}
+
+.bottom{
+  width: 95%;
+  height: 10%;
+  margin: 10px;
+}
+
+.input_form{
+  width: 95%;
+  border-width: 0.5px;   
+  border-style: solid;
+  border-color: grey;
+  box-shadow: 5px 5px grey;
+}
+
